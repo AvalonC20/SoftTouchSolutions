@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title> Soft Touch Solutions </title>
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+	<meta name="authour" content="Avalon Carrington">
+	<link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+</head>
+
+<body>
+	<header>
+		<div class="visual">
+			<img src="../IMG/logo.jpg" alt="image showing the website's logo" width="1052" height="200">
+		</div>
+	</header>
+	
+	<nav>
+		<div class="menu">
+			<ul>
+				<li> 
+					<a href="../index.html"> Home </a>
+				</li>
+				
+				<li> 
+					<a href="NonProfitOrganizations.html"> Non-Profit Organizations </a>
+				</li>
+				
+				<li> 
+					<a href="HowToSupport.html"> How To Support </a>
+				</li>
+				
+				<li> 
+					<a href="Gallery.html"> Gallery </a>
+				</li>
+				
+				<li> 
+					<a href="AboutUs.html"> About Us </a>
+				</li>
+					
+				<li> 
+					<a href="RegistrationForm.html"> Register </a>
+				</li>
+								
+				<li> 
+					<a href="Login.html"> Login </a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	
+	<main>		
+		<div class="content forms">
+			<form action>
+			
+			<h1>Register</h1>
+			
+				<fieldset>
+					<legend>Personal</legend>
+						<label for="fname"> First Name: </label><br>
+						<input type="text" id="fname" name="fname" required> <br><br>
+						<label for="lastname"> Last Name: </label><br>
+						<input for="text" id="lastname" name="lastname" required>
+						<br>
+						
+						<p>Gender:</p>
+						<input type="radio" id="female" name="gender" value="female">
+						<label for="female"> Female </label><br>
+						<input type="radio" id="male" name="gender" value="male">
+						<label for="male"> Male </label><br>
+						<input type="radio" id="other" name="gender" value="other">
+						<label for="other"> Other </label><br>
+						<br>
+						
+						
+						<label for="Age"> Age: </label>
+						<input type="number" name="Age" min="10" max="120" placeholder="-select-">
+						
+						<label for="Location"> Location: </label>
+						<select id="Location" name="Location">
+						<option value="Select"> -Select- </option>
+						<option value="NTrinidad">North Trinidad</option>
+						<option value="STrinidad">South Trinidad</option>
+						<option value="ETrinidad">East Trinidad</option>
+						<option value="WTrinidad">West Trinidad</option>
+						<option value="Tobago">Tobago</option>
+						<option value="Caribbean">Caribbean</option>
+						<option value="Other">Other</option>
+						</select>
+			</fieldset>	
+
+			<fieldset>
+					<legend>Basic</legend><br>	
+						<label for="mail">Email</label><br>
+						<input type="email" name="mail" required>
+						<br><br>
+						
+						<label for="uname">Username</label><br>
+						<input type="text" name="uname" required>
+						<br><br>
+						
+						<label for="passwrd">Password</label><br>
+						<input type="password" name="passwrd" required>
+			</fieldset>
+
+			<fieldset>
+				<div class="container bottom">
+					<button type="submit" class="register"><a href="Confirmation.html">Register</a></button>
+				</div>	
+				
+				<div class="container clear">
+					<button type="reset" class="clear">Clear</button>
+				</div>
+			</fieldset>
+			</form>
+		</div>
+	</main>
+	
+	<footer>
+		<div class="foot">
+			<p>&copy; 2023 Soft Touch Solutions | Inc.</p>
+		</div>
+	</footer>
+</body>
+</html>
