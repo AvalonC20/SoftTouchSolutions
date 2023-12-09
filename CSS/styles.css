@@ -9,7 +9,7 @@ body{
 .menu{
 	overflow:hidden;
 	background-color: black;
-	margin: 0 15% 0 15%;
+	margin: 0 15%;
 }
 
 .menu a{
@@ -41,7 +41,7 @@ body{
 	color: grey;
 	align-items:bottom;
 	font-size:15px;
-	margin: 0 15% 0 15%;
+	margin: 0 15%;
 }
 
 
@@ -50,7 +50,7 @@ body{
 	background-color:slategrey;
 	width: auto;
 	height: auto;
-	margin: 1% 15% 1% 15%;
+	margin: 1% 15%;
 	text-align: justify;
 }
 
@@ -62,16 +62,15 @@ h1{
 }
 
 .visual{
-	margin: 0 15% 0 15%;
+	margin: 0 15%;
 }
 
-
+/*index page*/
 .visual.image{
 	float:right;
 	margin:2%;
 	margin-top:10%;
 	margin-bottom:60%;
-	box-shadow: 2px 2px 0px;
 }
 
 
@@ -83,12 +82,13 @@ h1{
 	border-top: 1px solid lightgray;
 	text-decoration: none;
 	color: grey;
-	margin: 0 15% 0 15%;
+	margin: 0 15%;
 }
 .content.references a:hover{
 	color: grey;
 	font-weight: bold;
 }
+
 
 /*NOPs, How to Support*/
 .content.general{
@@ -96,11 +96,8 @@ h1{
 	border-top: 2px solid silver;
 	border-bottom: 2px solid silver;
 	padding: 20px;
-	margin: 1% 5% 1% 5%;
+	margin: 1% 5%;
 }
-
-
-
 
 /* Non-Profit Org. Page*/
 .visual.img{
@@ -114,16 +111,14 @@ h1{
 	display: grid;
 	gap: 50px 100px;
 	grid-template-columns: auto auto;
-	padding: 10px;
-	margin: 0 5% 0 5%;
+	margin: 0 5%;
+	color: silver;
+	text-align: center;
 }
 .grid-item {
 	background-color: white;
 	border: 1px solid pink;
-	padding: 20px;
-	font-size: 30px;
-	text-align: center;
-	width: auto;	
+	padding: 20px;	
 	box-shadow: 10px 10px;
 }
 
@@ -139,15 +134,12 @@ h1{
 
 .credit p{
 	font-size: 16px;
-	color: silver;
-	position: left;
+	
 }
 .description {
-	padding: 15px;
-	text-align: center;
 	font-size: 20px;
-	color: silver;
 }
+
 a{
 	text-decoration:none;
 	color: purple;
@@ -158,72 +150,52 @@ a{
 	}
 } 
 
-/*Registration Form*/
-.content.form {
-	text-align:center;
+/*Confirmation Page*/
+.content.confirm p{
+	text-align: center;
 }
+
+
+/*Forms*/
+.content.form p{
+	text-align:center; /*Login page*/
+}
+
 .content.form fieldset{
 	border: 2px solid pink;
 	border-radius: 1em 1em;
-	margin-left:30%;
-	margin-right:30%;
-	background-color: #eeeeee;
+	margin:0 30%;
+	background-color: #eeeeee;/*light gray*/
 	font-size: 15px;
 	padding:2%;
 	color:black;
-	box-shadow:5px 5px;
-	text-align: left;
+	box-shadow:5px 5px 5px;
 }
-.container.bottom button{
+.submit button{
 	padding:2% 0;
 	background-color:green;
 	width: 100%;
+	box-shadow:5px 5px 2px;
 }
-.container.bottom a{
-	color:black
-}
-
-/*Contact Us Form*/
-.content.contact fieldset{
-	border: 2px solid pink;
-	border-radius: 1em 1em;
-	margin-left:15%;
-	margin-right:15%;
-	background-color: #eeeeee;
-	font-size: 15px;
-	padding:2%;
-	color:black;
-	box-shadow:5px 5px;
-	text-align: left;
-}
-
-.container.clear button{
+.clear button{
+	padding:2% 0;
 	background-color:thistle;
 	width:100%;
-	padding:2% 0;
+	box-shadow:5px 5px 2px;
 }
+
+/*Contact Form*/
+.content.form.contact fieldset{
+	margin: 0 15%;
+}
+
 
 /*Register Page*/
-.forms{
-	padding: 1% 20%;
-	font-size: 15px;
-	color: black;
-}
-
-button{
-	text-decoration:none;
-}	
-
-fieldset {
-	background-color: #eeeeee;
+.content.form.register fieldset {
 	margin-top: 10px;
-	border: 15px solid #eeeeee;
 }
-
-legend {
-	margin-top: 10px;
-	text-decoration: none;
-	font-size: 20px;
+	
+.content.form.register legend {
+	background-color:#eeeeee;
 	border-bottom:2px solid black;
-	text-align:center;
 }
