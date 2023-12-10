@@ -5,6 +5,15 @@ body{
 	font-size:18px;
 }
 
+.logo{
+	margin:0 15%;
+}
+.logo img{
+	height:200px;
+	width:100%;
+}
+
+
 .menu{
 	overflow:hidden;
 	background-color: black;
@@ -128,9 +137,6 @@ h1{
 	width: 80%;
 	height: auto;
 }
-
-.credit p{
-	font-size: 16px;
 	
 }
 .description {
